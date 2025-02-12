@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+   <!-- <style>
+        table, th, td {
+          border: 1px solid;
+        }
+        </style>-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha primeira Tabela</title>
+    <link rel="stylesheet" href="./ex20normal.css">
 </head>
 <body>
-    <table>
-        <thead>
+    <table class="Tabela">
+        <colgroup>
+            <col span="2" style="background-color:rgb(119, 0, 255)">
+            <col style="background-color:yellow">
+          </colgroup>
+        <thead >
              <tr>
              <th>Produto</th>
              <th>Preço</th>
-             <th>Quantidade</th>
+             
+             <th id="teste">Quantidade</th>
              </tr>
         </thead> 
 
