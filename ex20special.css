@@ -1,0 +1,17 @@
+.tabela, th, td{
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 10px;
+    text-align: left;
+    border: 1px solid rgb(154, 234, 69);
+}
+th{
+    background-color: rgb(236, 87, 87);
+}
+samp{
+    background-color: blanchedalmond;
+}
+
+#teste{
+    background-color: blue;
+}
+
